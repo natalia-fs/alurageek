@@ -1,40 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  
-  <meta charset="UTF-8">
-  <meta http-equiv="Content-Language" content="pt-br">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="styles/reset.css">
-  <link rel="stylesheet" href="styles/header.css">
-  <title>Alurageek | Home</title>
-  <link rel="shortcut icon" type="image/jpg" href="/public/favicon.png"/>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="Content-Language" content="pt-br" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/reset.css" />
+    <title>Alurageek | Home</title>
+    <link rel="shortcut icon" type="image/jpg" href="./public/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    /> -->
+  </head>
+  <body>
+    <main>
+      <header>
+        <img src="./public/logo.svg" alt="" class="header__logo" />
 
-  <main>
+        <div class="header__actions">
+          <div class="header__searchbar">
+            <input
+              class="header__searchbar-input"
+              type="text"
+              placeholder="O que deseja encontrar?"
+            />
+            <button class="header__searchbar--search">
+              <img
+                src="./public/assets/icons/search-icon.svg"
+                alt="search"
+                class="searchbar-icon"
+              />
+            </button>
+          </div>
 
-    <header>
-
-      <img src="./public/logo.svg" alt="" class="header-logo">
-
-      <div class="header-actions">
-        
-        <div class="header-searchbar">
-          <input class="header-searchbar-input" type="text" placeholder="O que deseja encontrar?">
-          <button class="header-searchbar--search">
-            <img src="./public/assets/icons/search-icon.svg" alt="search" class="searchbar-icon">
+          <button class="header__login--btn" type="button" role="button">
+            Login
           </button>
         </div>
-        
-        <button class="header-login--btn" type="button" role="button">Login</button>
+      </header>
 
-      </div>
-
-    </header>
-
-  </main>
-
-</body>
+      <section class="banner">
+        <div class="banner__informacoes">
+          <strong class="banner__title">Dezembro Promocional</strong>
+          <p class="banner__subtitle">
+            Produtos selecionados com 33% de desconto
+          </p>
+          <button class="button button__primary">Ver Consoles</button>
+        </div>
+        <img src="./public/assets/images/banner-image.jpg" alt="Banner da loja">
+      </section>
+    </main>
+  </body>
 </html>

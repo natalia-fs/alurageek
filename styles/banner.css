@@ -1,0 +1,39 @@
+section.banner{
+  position: relative;
+}
+
+section.banner>img{
+  width: 100%;
+  max-height: 192px;
+  object-fit: cover;
+}
+
+section.banner>.banner__informacoes{
+  position: absolute;
+  margin: 1rem 1rem;
+  bottom: 0;
+}
+section.banner button{
+  margin: 0.5rem 0;
+}
+.banner__informacoes .banner__title, .banner__informacoes .banner__subtitle{
+  color: var(--white);
+  filter: drop-shadow(1px 1px 1px black);
+}
+
+.banner__informacoes strong{
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.banner__informacoes p{
+  font-weight: 500;
+  margin: 0.5rem 0;
+}
+
+@media(min-width: 720px){
+  section.banner>img{
+    max-height: 352px;
+  }
+}

@@ -1,0 +1,16 @@
+.button{
+  padding: .75rem 1rem;
+  /* border: 1px solid; */
+  font-weight: 500;
+  min-height: 2.5rem;
+  min-width: 7.5rem;
+}
+.button__primary{
+  background: var(--blue);
+  color: var(--white);
+}
+
+.button__secondary{
+  background: var(--white);
+  color: var(--blue);
+}

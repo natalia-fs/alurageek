@@ -13,10 +13,12 @@
 }
 
 html{
+  font-family: 'Raleway', sans-serif;
   min-width: 350px;
 }
 
 input,button{
+  font-family: 'Raleway', sans-serif;
   cursor: pointer;
   border: none;
 }

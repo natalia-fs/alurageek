@@ -7,37 +7,37 @@ header{
   background-color: #eee;
 }
 
-.header-logo{
+.header__logo{
   min-width: 6.25rem;
   max-width: 11rem;
 }
 
-.header-actions{
+.header__actions{
   display: flex;
   align-items: center;
   justify-content: space-between;
   
 }
 
-.header-searchbar{
+.header__searchbar{
   display: flex;
   order: 2; 
 }
 
-.header-searchbar-input{
+.header__searchbar-input{
   border-radius: 2rem;
   background: var(--white);
   padding: 0 .5rem 0 1rem;
   display: none;
 }
 
-.header-searchbar--search{
+.header__searchbar--search{
   display: flex;
   padding: .4rem;
   border-radius: 50%;
 }
 
-.header-login--btn{
+.header__login--btn{
   min-width: 8.25rem;
   padding: 1rem;
   margin: 0 1.5rem;
@@ -49,13 +49,13 @@ header{
   header{
     justify-content: space-evenly;
   }
-  .header-actions{
+  .header__actions{
     width: 36rem;
   }
-  .header-searchbar{
+  .header__searchbar{
     order: 0; 
   }
-  .header-searchbar-input{
+  .header__searchbar-input{
     display: flex;
     justify-content: space-between;
     width: 20rem;
@@ -63,10 +63,10 @@ header{
 }
 
 @media(min-width: 1080px){
-  .header-actions{
+  .header__actions{
     width: 50rem;
   }
-  .header-searchbar-input{
+  .header__searchbar-input{
     width: 36rem;
   }
 }
